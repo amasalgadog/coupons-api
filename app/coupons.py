@@ -6,7 +6,7 @@ def apply_coupon(price, coupon):
     }
     
     if coupon in discount:
-        return round(price* (1-discount[coupon]), 2)
+        return round(price * (1 - discount[coupon]), 2)
     return price
 
 def get_final_price(base_price, coupon, tax_rate=0.19):
